@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import LandingSelection from './components/LandingSelection';
-import DesignerPortfolio from './components/DesignerPortfolio';
-import CyberPortfolio from './components/CyberPortfolio';
-import LoadingScreen from './components/LoadingScreen';
-import SocialMediaPopup from './components/SocialMediaPopup';
-import { ViewState } from './types';
+import React, { useState, useEffect } from "react";
+import LandingSelection from "./components/LandingSelection";
+import DesignerPortfolio from "./components/DesignerPortfolio";
+import CyberPortfolio from "./components/CyberPortfolio";
+import LoadingScreen from "./components/LoadingScreen";
+// import SocialMediaPopup from "./components/SocialMediaPopup";
+import { ViewState } from "./types";
 
 function App() {
   const [currentView, setCurrentView] = useState<ViewState>(ViewState.LOADING);
   const [showSocialPopup, setShowSocialPopup] = useState(false);
-  
+
   // Independent states to ensure popup shows once for EACH portfolio view per session
   const [hasShownDesignerPopup, setHasShownDesignerPopup] = useState(false);
   const [hasShownCyberPopup, setHasShownCyberPopup] = useState(false);
@@ -36,8 +36,7 @@ function App() {
         setShowSocialPopup(true);
         setHasShownDesignerPopup(true);
       }, 2500); // 2.5s delay
-    } 
-    else if (currentView === ViewState.CYBER && !hasShownCyberPopup) {
+    } else if (currentView === ViewState.CYBER && !hasShownCyberPopup) {
       timer = setTimeout(() => {
         setShowSocialPopup(true);
         setHasShownCyberPopup(true);
@@ -56,21 +55,21 @@ function App() {
       {currentView === ViewState.LANDING && (
         <LandingSelection onSelect={handleViewSelect} />
       )}
-      
+
       {currentView === ViewState.DESIGNER && (
         <DesignerPortfolio onBack={handleBackToHome} />
       )}
-      
+
       {currentView === ViewState.CYBER && (
         <CyberPortfolio onBack={handleBackToHome} />
       )}
 
       {/* Social Media Popup Overlay */}
-      <SocialMediaPopup 
+      {/* <SocialMediaPopup 
         isOpen={showSocialPopup} 
         onClose={() => setShowSocialPopup(false)} 
         currentView={currentView}
-      />
+      /> */}
     </div>
   );
 }
