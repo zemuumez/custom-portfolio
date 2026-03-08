@@ -98,7 +98,7 @@ const LoadingScreen: React.FC<Props> = ({ onComplete }) => {
           className={`transition-opacity duration-1000 delay-500 ${progress > 50 ? "opacity-100" : "opacity-0"}`}
         >
           <h2 className="text-sm md:text-lg font-mono tracking-[0.2em] text-gray-400 uppercase mb-2">
-            Robel Nayad
+            Robel Gebregziabher
           </h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-xs md:text-sm font-light text-gray-500 tracking-wider">
             <span className="text-accent-gold">Graphic Designer</span>
@@ -122,7 +122,7 @@ const LoadingScreen: React.FC<Props> = ({ onComplete }) => {
 
       {/* --- CORNER DECORATIONS --- */}
       <div className="absolute top-10 left-10 text-xs font-mono text-gray-700 hidden md:block">
-        ID: NAYAD_SESSION_01
+        ID: Gebregziabher_SESSION_01
       </div>
       <div className="absolute bottom-10 right-10 text-xs font-mono text-gray-700 hidden md:block">
         V.3.0.0

@@ -216,7 +216,7 @@ const DesignerPortfolio: React.FC<Props> = ({ onBack }) => {
             Return
           </button>
           <div className="font-serif italic font-bold text-2xl text-white">
-            Nayad<span className="text-accent-gold">.</span>Creative
+            Gebregziabher<span className="text-accent-gold">.</span>Creative
           </div>
           <button
             onClick={() =>
@@ -476,10 +476,10 @@ const DesignerPortfolio: React.FC<Props> = ({ onBack }) => {
               </p>
               <div className="space-y-6">
                 <a
-                  href="mailto:officialnayad@gmail.com"
+                  href="mailto:officialGebregziabher@gmail.com"
                   className="text-3xl md:text-4xl text-white hover:text-accent-gold transition-colors block font-serif"
                 >
-                  officialnayad@gmail.com
+                  officialGebregziabher@gmail.com
                 </a>
               </div>
             </div>
@@ -524,7 +524,7 @@ const DesignerPortfolio: React.FC<Props> = ({ onBack }) => {
           </div>
 
           <div className="max-w-[1800px] mx-auto px-8 md:px-12 mt-40 pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600 uppercase tracking-widest">
-            <div>© {new Date().getFullYear()} Robel Nayad.</div>
+            <div>© {new Date().getFullYear()} Robel Gebregziabher.</div>
             <div className="flex gap-12 mt-6 md:mt-0">
               <a
                 href="https://t.me/eah0011"
@@ -535,7 +535,7 @@ const DesignerPortfolio: React.FC<Props> = ({ onBack }) => {
                 Telegram
               </a>
               <a
-                href="https://www.tiktok.com/@officialnayad"
+                href="https://www.tiktok.com/@officialGebregziabher"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-white transition-colors"
@@ -543,7 +543,7 @@ const DesignerPortfolio: React.FC<Props> = ({ onBack }) => {
                 TikTok
               </a>
               <a
-                href="https://www.instagram.com/official__nayad/"
+                href="https://www.instagram.com/official__Gebregziabher/"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-white transition-colors"
