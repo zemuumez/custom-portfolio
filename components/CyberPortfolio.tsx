@@ -35,7 +35,7 @@ const allProjects: Project[] = [
     longDescription:
       "A custom-built laboratory environment designed to simulate various Cross-Site Scripting (XSS) scenarios. Used for practicing payload injection, understanding reflected vs stored XSS, and developing mitigation strategies.",
     tags: ["JavaScript", "Penetration Testing", "Web Security", "OWASP"],
-    link: "https://github.com/Gebregziabher-12/XSS_Lab.git",
+    link: "https://github.com/Bekele-12/XSS_Lab.git",
   },
   {
     id: "api-1",
@@ -45,7 +45,7 @@ const allProjects: Project[] = [
     longDescription:
       "A comprehensive dashboard application that integrates multiple external APIs. Fetches and visualizes real-time data for weather forecasts, cryptocurrency market trends, and global news headlines in a unified interface.",
     tags: ["API Integration", "React/JS", "Async", "Frontend"],
-    link: "https://github.com/Gebregziabher-12/API-Based-App-Weather-Crypto-News-",
+    link: "https://github.com/Bekele-12/API-Based-App-Weather-Crypto-News-",
   },
   {
     id: "auth-1",
@@ -55,7 +55,7 @@ const allProjects: Project[] = [
     longDescription:
       "A secure authentication framework handling user registration, login, and session management. Implements best practices for password hashing, token management, and protection against common auth-based attacks.",
     tags: ["Auth", "Cryptography", "Backend", "Security"],
-    link: "https://github.com/Gebregziabher-12/Authentication-System",
+    link: "https://github.com/Bekele-12/Authentication-System",
   },
   {
     id: "dev-1",
@@ -65,7 +65,7 @@ const allProjects: Project[] = [
     longDescription:
       "A productivity tool designed to generate and organize creative content ideas. Streamlines the content creation workflow by providing structured prompts and categories.",
     tags: ["Automation", "Productivity", "Scripting"],
-    link: "https://github.com/Gebregziabher-12/Content-Idea-Generator",
+    link: "https://github.com/Bekele-12/Content-Idea-Generator",
   },
   {
     id: "fin-1",
@@ -75,7 +75,7 @@ const allProjects: Project[] = [
     longDescription:
       "An intuitive application for tracking daily expenses and managing personal budgets. Features transaction logging, category filtering, and summary views to monitor financial health.",
     tags: ["Finance", "CRUD", "State Management"],
-    link: "https://github.com/Gebregziabher-12/Expense_Tracker_v1",
+    link: "https://github.com/Bekele-12/Expense_Tracker_v1",
   },
   {
     id: "task-1",
@@ -85,7 +85,7 @@ const allProjects: Project[] = [
     longDescription:
       "A clean and efficient task management application. Allows users to create, update, and track daily tasks to improve productivity and maintain organized workflows.",
     tags: ["Productivity", "React", "UI/UX"],
-    link: "https://github.com/Gebregziabher-12/Daily_Task_Tracker_v1",
+    link: "https://github.com/Bekele-12/Daily_Task_Tracker_v1",
   },
 ];
 
@@ -694,7 +694,7 @@ const CyberPortfolio: React.FC<Props> = ({ onBack }) => {
                         Email Uplink
                       </div>
                       <div className="text-white font-mono text-xl">
-                        officialGebregziabher@gmail.com
+                        officialBekele@gmail.com
                       </div>
                     </div>
                   </div>
@@ -773,7 +773,7 @@ const CyberPortfolio: React.FC<Props> = ({ onBack }) => {
                   Telegram
                 </a>
                 <a
-                  href="https://www.tiktok.com/@officialGebregziabher"
+                  href="https://www.tiktok.com/@officialBekele"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-neon-cyan transition-colors"
@@ -781,7 +781,7 @@ const CyberPortfolio: React.FC<Props> = ({ onBack }) => {
                   TikTok
                 </a>
                 <a
-                  href="https://www.instagram.com/official__Gebregziabher/"
+                  href="https://www.instagram.com/official__Bekele/"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-neon-cyan transition-colors"
